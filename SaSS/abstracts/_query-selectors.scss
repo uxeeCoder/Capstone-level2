@@ -1,0 +1,43 @@
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+// @media (
+//     (min-width: 320px) and (max-width: 480px)
+//     ) {
+//     .query-selector {
+//         background-color: red;
+//     }
+//     }
+@mixin breakpoint-xs {
+  @media (min-width: ($breakpoint-xs + 1)) and (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin breakpoint-sm {
+  @media (min-width: ($breakpoint-sm + 1)) and (max-width: $breakpoint-md) {
+  }
+  @content;
+}
+
+@mixin breakpoint-md {
+  @media (min-width: ($breakpoint-md + 1)) and (max-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg {
+  @media (min-width: ($breakpoint-lg + 1)) {
+    @content;
+  }
+}
+
+// THIS IS INSIDE header.scss
+// .header {
+//   background-color: $color-primary;
+//   color: black @include breakpoint-md {
+//     background-color: red;
+//   }
+// }

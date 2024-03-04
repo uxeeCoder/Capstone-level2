@@ -1,0 +1,63 @@
+.footer{
+    background-color: $color-primary;
+    color: $color-white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 20rem;
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    a{
+        color: $color-white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .footer__logo{
+        width: 10rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .footer__navigation{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+        li{
+            margin: 0 1rem;
+            a{
+                color: $color-white;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer__social{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+        li{
+            margin: 0 1rem;
+            a{
+                color: $color-white;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer__legal{
+        font-size: 1.2rem;
+    }
+}
+
+// Code Generated with the help of GitHub Copilot
