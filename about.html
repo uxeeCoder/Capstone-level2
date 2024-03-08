@@ -135,13 +135,15 @@
       </section>
       <!-- ICONS End -->
 
-      <section class="card-about">
+      <section class="form">
         <!-- FORM STARTS HERE -->
         <form method="POST" netlify>
           <h3>Contact</h3>
-          <div class="mb-3">
-            <!-- Fixed label for=First Name, it was with lowercase n -->
-            <label for="First Name" class="form-label">First Name</label>
+
+          <!-- Fixed label for=First Name, it was with lowercase n -->
+          <label for="First Name" class="form-label"
+            >First Name
+
             <input
               type="text"
               class="form-control"
@@ -149,30 +151,36 @@
               name="First Name"
               aria-describedby="First Name"
             />
-          </div>
+          </label>
 
-          <div>
-            <label for="Last Name" class="form-label">Last Name</label>
+          <label for="Last Name" class="form-label"
+            >Last Name
+
             <input
               type="text"
               name="Last Name"
               class="form-control"
               id="Last Name"
             />
-          </div>
-          <div>
-            <label for="email" class="form-label">Email</label>
+          </label>
+
+          <label for="email" class="form-label"
+            >Email
+
             <input type="email" name="email" class="form-control" id="email" />
-          </div>
-          <div>
-            <label for="Comments" class="form-label">Your Message</label>
+          </label>
+
+          <label for="Comments" class="form-label"
+            >Your Message
+
             <input
               type="text"
               name="Comments"
               class="form-control"
               id="Comments"
             />
-          </div>
+          </label>
+
           <button type="submit" class="button">Submit</button>
         </form>
       </section>

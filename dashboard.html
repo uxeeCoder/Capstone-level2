@@ -44,7 +44,7 @@
       </nav>
     </header>
     <main>
-      <h1>News & Weather - No Clutter!</h1>
+      <h1>No Clutter News & Weather!</h1>
       <div id="splashImg">
         <div>
           <img
@@ -65,30 +65,33 @@
           />
         </div>
       </div>
-      <form id="zipcode">
-        <label class="button">
-          <input
+      <div class="cardNews__body">
+
+        <form id="zipcode">
+          <label class="button">
+            <input
             type="text"
             id="zip"
             name="zip"
             placeholder=" Enter Zipcode to get Your:"
             required
-          />
-        </label>
-        <button type="submit" class="button">
-          <iconify-icon icon="noto:sun" width="15" height="10"></iconify-icon>
-         Daily News & Weather
-        </button>
-      </form>
-      <div class="cardWeather hide" id="dailyWeather">
-        <!-- <header class="cardWeather__header">
-          Your Personalized News & Weather
-        </header> -->
+            />
+          </label>
+          <button type="submit" class="button">
+            <iconify-icon icon="noto:sun" width="15" height="10"></iconify-icon>
+            Daily News & Weather
+          </button>
+        </form>
       </div>
-      <div class= "hide" id="newsContainer"></div>
-    </main>
-    <footer class="footer-dash">
-      <div>© 2024 News & Weather</div>
+        <div class="cardWeather hide" id="dailyWeather">
+          <!-- <header class="cardWeather__header">
+            Your Personalized News & Weather
+          </header> -->
+        </div>
+        <div class= "hide" id="newsContainer"></div>
+      </main>
+      <footer class="footer-dash">
+        <div>© 2024 News & Weather</div>
     </footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
