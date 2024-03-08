@@ -10,9 +10,6 @@
   main {
     @include flex-layout;
   }
-  // .cardDb {
-  //   @include flex-layout;
-  // }
   
   // Button Mixin created for mixin assignment to style the button on the card
   @mixin button-style($secondary-color, $text-color, $border-radius: 7px) {
@@ -39,6 +36,7 @@
   }
   .button{
     @include button-style-dashboard($secondary-color-dashboard, $text-color);
+    padding: 10px;
   }
   
   .card__button {
