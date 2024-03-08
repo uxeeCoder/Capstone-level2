@@ -247,7 +247,7 @@ p {
   border-radius: 7px;
   box-shadow: 4px 4px 10px #2c2505;
   text-align: center;
-  width: 30%;
+  width: auto;
   padding: 20px;
   margin: 10px;
 }
