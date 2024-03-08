@@ -1,7 +1,37 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    color: #333;
-    
+// All the typography related styles are defined in this file.
+
+$font-family: times, serif;
+$font-family-dashboard: courier, monospace;
+$font-weight: 400;
+$font-size: 1rem;
+$line-height: 2;
+
+.cardWeather {
+  font-family: $font-family-dashboard;
+
+  &__header {
+    font-family: $font-family-dashboard;
+    font-size: 1.5rem;
+    font-weight: $font-weight;
+  }
+
+  &__body {
+    font: $font-family-dashboard;
+    font-size: 1.5rem;
+  }
+}
+
+.card {
+  font-family: $font-family;
+  text-align: auto;
+
+  &__header {
+    font-family: $font-family;
+    font-size: 2rem;
+    font-weight: $font-weight;
+  }
+  &__body {
+    font: $font-family;
+    font-size: 1.25rem;
+  }
 }

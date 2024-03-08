@@ -1,0 +1,5 @@
+// Fade in and out the background color of the body element.
+
+body {
+    transition: background-color 1.5s ease-in-out;
+  }

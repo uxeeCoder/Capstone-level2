@@ -1,0 +1,87 @@
+.cardWeather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: $primary-color-dashboard;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+  margin: 10px;
+  text-align: auto;
+  align-items: center;
+
+  &__header {
+    justify-content: center;
+    width: auto;
+    // margin-bottom: 1rem;
+  }
+
+  &__body {
+    padding: 1rem;
+    color: black;
+    background-color: $secondary-color-dashboard;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+  }
+}
+
+.cardNews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  height: 850px;
+  color:$text-color;
+  
+  background-color: $secondary-color-dashboard;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  text-align: auto;
+  align-items: center;
+  width: auto;
+  &__imgwrapper{
+    max-height:500px;
+    max-width: 500px;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    @include breakpoint-sm {
+      max-height: 300px;
+      max-width: 300px;
+    }
+  }
+}
+
+  h2{
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+  p{
+    font-size: 1rem;
+    font-family: $font-family-dashboard;
+    font-weight: $font-weight;
+    margin: 10px;
+    text-align: center;
+  }
+  .article{
+    width: 700px;
+    height: 850px;
+    // overflow: hidden;
+
+    @include breakpoint-sm {
+
+      max-width: 500px;
+    }
+
+
+  }
+  #newsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }

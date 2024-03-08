@@ -1,63 +1,41 @@
-.footer{
-    background-color: $color-primary;
-    color: $color-white;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 20rem;
-    font-size: 1.4rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    a{
-        color: $color-white;
-        text-decoration: none;
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-    .footer__logo{
-        width: 10rem;
-        height: auto;
-        margin-bottom: 2rem;
-    }
-    .footer__navigation{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3rem;
-        li{
-            margin: 0 1rem;
-            a{
-                color: $color-white;
-                text-decoration: none;
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-    .footer__social{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3rem;
-        li{
-            margin: 0 1rem;
-            a{
-                color: $color-white;
-                text-decoration: none;
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-    .footer__legal{
-        font-size: 1.2rem;
-    }
-}
 
-// Code Generated with the help of GitHub Copilot
+// Styles defined for the footer element
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$nav-color;
+    color: $text-color;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    margin: 5px;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: $font-weight;
+  }
+  .footer-dash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$nav-color-dashboard;
+    color: $text-color;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    margin: 5px;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: $font-weight;
+  }
+  .footer-abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$nav-color-about;
+    color: $text-color;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    margin: 5px;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: $font-weight;
+  }

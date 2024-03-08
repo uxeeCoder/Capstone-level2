@@ -1,6 +1,14 @@
-@import "abstracts/_variables";
-@import "abstracts/_functions";
-@import "abstracts/_mixins";
-@import "abstracts/_query-selectors";
-@import "themes/_fall-season";
-
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "layout/body";
+@import "pages/dashboard";
+// @import "pages/about";
+@import "abstracts/functions";
+@import "base/typography";
+@import "abstracts/query-selectors";
+@import "layout/layout-home";
+@import "layout/layout-dashboard";
+@import "layout/layout-about";
+@import "abstracts/utilities";
+@import "layout/footer";
+@import "layout/header";
