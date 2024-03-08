@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="SaSS/main.css" />
+  </head>
+  <body>
+    <header class="header-dash">
+      <nav class="header-dash__nav">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><iconify-icon
+                icon="fa:home"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li>
+            <a href="dashboard.html"
+              ><iconify-icon
+                icon="mdi:weather-partly-rainy"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li>
+            <a href="about.html"
+              ><iconify-icon
+                icon="mdi:about-variant"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>News & Weather - No Clutter!</h1>
+      <div id="splashImg">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1586339949216-35c2747cc36d?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+      <form id="zipcode">
+        <label class="button">
+          <input
+            type="text"
+            id="zip"
+            name="zip"
+            placeholder=" Enter Zipcode to get Your:"
+            required
+          />
+        </label>
+        <button type="submit" class="button">
+          <iconify-icon icon="noto:sun" width="15" height="10"></iconify-icon>
+         Daily News & Weather
+        </button>
+      </form>
+      <div class="cardWeather hide" id="dailyWeather">
+        <!-- <header class="cardWeather__header">
+          Your Personalized News & Weather
+        </header> -->
+      </div>
+      <div class= "hide" id="newsContainer"></div>
+    </main>
+    <footer class="footer-dash">
+      <div>© 2024 News & Weather</div>
+    </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

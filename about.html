@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="SaSS/main.css" />
+  </head>
+  <body>
+    <header class="header-abt">
+      <nav class="header-abt__nav">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><iconify-icon
+                icon="fa:home"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+
+          <li>
+            <a href="dashboard.html"
+              ><iconify-icon
+                icon="mdi:weather-partly-snowy"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li>
+            <a href="about.html"
+              ><iconify-icon
+                icon="mdi:about-variant"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- New Entries -->
+      <section class="card-about">
+        <div>
+          <!-- <h3>Skills</h3> -->
+          <iconify-icon
+            class="iconify icon m1"
+            icon="devicon:html5"
+            width="60"
+            height="60"
+          ></iconify-icon>
+          <iconify-icon
+            class="iconify icon m1"
+            icon="skill-icons:vscode-dark"
+            width="75"
+            height="75"
+          ></iconify-icon>
+
+          <iconify-icon
+            icon="logos:node-sass"
+            width="105"
+            height="105"
+          ></iconify-icon>
+          <iconify-icon
+            class="iconify icon m1"
+            icon="vscode-icons:file-type-js-official"
+            width="75"
+            height="75"
+          ></iconify-icon>
+
+          <iconify-icon
+            class="iconify icon m1"
+            icon="vscode-icons:file-type-css"
+            width="60"
+            height="60"
+          ></iconify-icon>
+        </div>
+
+        <div class="pad1">
+          <img
+            src="https://images.unsplash.com/photo-1627087820883-7a102b79179a?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Profile Picture"
+          />
+        </div>
+        <div>
+          <div>
+            <div>
+              <h1 class="h1">Umar Zafar</h1>
+            </div>
+            <p class="p1">
+              A <span class="highlight">Software Developer</span> who started
+              his journey in the field of computer science with a zeal to excel.
+              I have honed my skills in various programming languages and
+              frameworks, including
+              <span class="highlight">
+                HTML, CSS, SaSS, Bootstrap, VS code, Javascript, Git & Github.
+              </span>
+              I have great passion for learning and I always look for new
+              challenges, currently enrolled in CodeX academy's 'Full Stack Web
+              Developer Program' and excited to see where this journey takes me!
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <iconify-icon
+            class="iconify icon m1"
+            icon="devicon:bootstrap"
+            width="70"
+            height="70"
+          ></iconify-icon>
+          <iconify-icon
+            class="iconify icon m1"
+            icon="uil:github"
+            width="120"
+            height="120"
+          ></iconify-icon>
+          <iconify-icon
+            class="iconify icon m1"
+            icon="devicon:git"
+            width="70"
+            height="70"
+          ></iconify-icon>
+        </div>
+
+        <!-- INTRO ENDS -->
+
+        <!-- ICONS START HERE  -->
+      </section>
+      <!-- ICONS End -->
+
+      <section class="card-about">
+        <!-- FORM STARTS HERE -->
+        <form method="POST" netlify>
+          <h3>Contact</h3>
+          <div class="mb-3">
+            <!-- Fixed label for=First Name, it was with lowercase n -->
+            <label for="First Name" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="First Name"
+              name="First Name"
+              aria-describedby="First Name"
+            />
+          </div>
+
+          <div>
+            <label for="Last Name" class="form-label">Last Name</label>
+            <input
+              type="text"
+              name="Last Name"
+              class="form-control"
+              id="Last Name"
+            />
+          </div>
+          <div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" id="email" />
+          </div>
+          <div>
+            <label for="Comments" class="form-label">Your Message</label>
+            <input
+              type="text"
+              name="Comments"
+              class="form-control"
+              id="Comments"
+            />
+          </div>
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer-abt">
+      <div>© 2024 News & Weather</div>
+    </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="about.js"></script>
+  </body>
+</html>

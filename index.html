@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="SaSS/main.css">
-</head>
-<body>
-    <h1>HELLO WORLD</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News&Weather</title>
+    <link rel="stylesheet" href="SaSS/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><iconify-icon
+                icon="fa:home"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li>
+            <a href="dashboard.html"
+              ><iconify-icon
+                icon="mdi:weather-partly-snowy-rainy"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li>
+            <a href="about.html"
+              ><iconify-icon
+                icon="mdi:about-variant"
+                width="36"
+                height="36"
+                style="color: #ffffff"
+              ></iconify-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="splashImg">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div>
+          <!-- <img
+            src="https://images.unsplash.com/photo-1503694978374-8a2fa686963a?q=80&w=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          /> -->
+          <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1630260667842-830a17d12ec9?q=80&w=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="weather map"
+          />
+        </div>
+      </div>
+      <section class="card">
+        <h1 class="h1">Your Personalized News & Weather Page</h1>
+        <div class="card__body">
+          <p>
+            Getting personalized news and weather is now as easy as a click.
+            With our new dashboard, you ONLY get the information you need, no
+            Clutter! Go ahead, just provide your Zip and let us do the rest!
+          </p>
+
+          <div>
+            <a href="dashboard.html" class="card__button"
+              >Personalize Your Dashboard</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>© 2024 News & Weather</div>
+    </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="home.js"></script>
+  </body>
 </html>
