@@ -13,6 +13,7 @@ main {
   margin: 10px;
   box-shadow: 4px 4px 10px #473b04;
   transition: background-color 0.3s ease;
+  padding: 10px;
 }
 .button:hover {
   background-color: #171301;
@@ -246,9 +247,9 @@ p {
   border-radius: 7px;
   box-shadow: 4px 4px 10px #2c2505;
   text-align: center;
-  width: 50%;
-  padding: 40px;
-  margin: 35px;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
 }
 .form form {
   width: 275px;
