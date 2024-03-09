@@ -9,8 +9,8 @@ class AsyncDelay {
     }
   }
   
-  const colors = ["#5D9FD5", "#3C8CCD", "#2E77B2", "#266192", "#2E77B2"];
-  const time = 1000;
+  const colors = ["#9DA9A0", "#6C7989", "#6C7989", "#9DA9A0"];
+  const time = 1500;
   const body = document.querySelector("body");
   const wait = new AsyncDelay(time);
   

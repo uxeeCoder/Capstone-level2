@@ -4,6 +4,7 @@
 const newsApiKey = "9a9107813b9123e235089af3ca4a16b3"; // News API key
 const weatherApiKey = "a47d1db11e5f4905b0850215241702"; // Weather API key
 
+
 // Function to fetch local news articles based on the city
 async function fetchLocalNews(city) {
   try {
