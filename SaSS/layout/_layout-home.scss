@@ -18,7 +18,8 @@ body {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
   text-align: center;
-  width: 55%;
+  font-family: $font-family;
+  width:75%;
   padding-bottom: 10px;
 
   &__header {
@@ -27,8 +28,8 @@ body {
   }
   &__button {
     background-color: $secondary-color;
-    padding: 15px 50px;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
   }
@@ -38,7 +39,15 @@ body {
     background-color: $primary-color;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
-    width: 50%;
+    width:50%
+  }
+  &__imgPlaceholder-body {
+    padding: 2rem;
+    color: black;
+    background-color: $primary-color;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    width:auto;
   }
 }
 #splashImg{
@@ -47,10 +56,8 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 10px #011c32;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   gap: 10px;
-  padding: 20px;
-  border-radius: 10px;
-  
-  opacity: 0.75;
+  padding: 30px;
+  border-radius: 5px;
 }
