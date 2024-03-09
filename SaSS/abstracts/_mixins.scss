@@ -28,7 +28,7 @@
     border-radius: $border-radius;
     padding: 10px 30px;
     margin: 10px;
-    box-shadow: $box-shadow-dashboard;
+    box-shadow: $box-shadow;
     transition: background-color 0.3s ease;
     &:hover {
       background-color: darken($primary-color-dashboard, 10%);
