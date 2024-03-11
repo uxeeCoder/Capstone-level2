@@ -12,45 +12,50 @@
     <link rel="stylesheet" href="SaSS/main.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header__nav">
+    <!-- Header with Navbar starts here -->
+    <header class="header" aria-label="Header">
+      <nav class="header__nav" aria-label="Main Navigation">
         <ul>
           <li>
-            <a href="index.html"
-              ><iconify-icon
+            <a href="index.html" aria-label="Home Page">
+              <iconify-icon
                 icon="fa:home"
                 width="36"
                 height="36"
                 style="color: #ffffff"
-              ></iconify-icon
-            ></a>
+              ></iconify-icon>
+            </a>
           </li>
           <li>
-            <a href="dashboard.html"
-              ><iconify-icon
+            <a href="dashboard.html" aria-label="Dashboard">
+              <iconify-icon
                 icon="mdi:weather-partly-snowy-rainy"
                 width="36"
                 height="36"
                 style="color: #ffffff"
-              ></iconify-icon
-            ></a>
+              ></iconify-icon>
+            </a>
           </li>
           <li>
-            <a href="about.html"
-              ><iconify-icon
+            <a href="about.html" aria-label="About Page">
+              <iconify-icon
                 icon="mdi:about-variant"
                 width="36"
                 height="36"
                 style="color: #ffffff"
-              ></iconify-icon
-            ></a>
+              ></iconify-icon>
+            </a>
           </li>
         </ul>
       </nav>
     </header>
+    <!-- Header ends here -->
 
-    <main>
+    <!-- Main starts here with a form to enter zipcode for weather and news -->
+    <main aria-label="Main Content">
       <h1>Personalized News & Weather</h1>
+
+      <!-- Splash images start here -->
       <div id="splashImg" class="card__imgPlaceholder-body">
         <div>
           <img
@@ -77,6 +82,9 @@
           />
         </div>
       </div>
+      <!-- Splash images end here -->
+
+      <!-- Card with a form to enter zipcode for weather and news -->
       <div class="card__body">
         <p>
           Getting personalized news and weather is now as easy as a click. With
@@ -89,9 +97,13 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
+    <!-- Main ends here -->
+
+    <!-- Footer starts here -->
+    <footer class="footer" aria-label="Footer">
       <div>© 2024 News & Weather</div>
     </footer>
+    <!-- Footer ends here -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="home.js"></script>
   </body>

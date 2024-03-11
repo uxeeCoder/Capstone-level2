@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="SaSS/main.css" />
   </head>
   <body>
+    <!-- Header with Navbar starts here -->
     <header class="header-dash">
-      <nav class="header-dash__nav">
+      <nav class="header-dash__nav" aria-label="Dashboard Navigation">
         <ul>
           <li>
-            <a href="index.html"
+            <a href="index.html" aria-label="Home Page"
               ><iconify-icon
                 icon="fa:home"
                 width="36"
@@ -21,7 +22,7 @@
             ></a>
           </li>
           <li>
-            <a href="dashboard.html"
+            <a href="dashboard.html" aria-label="Dashboard"
               ><iconify-icon
                 icon="mdi:weather-partly-rainy"
                 width="36"
@@ -31,7 +32,7 @@
             ></a>
           </li>
           <li>
-            <a href="about.html"
+            <a href="about.html" aria-label="About Page"
               ><iconify-icon
                 icon="mdi:about-variant"
                 width="36"
@@ -43,8 +44,13 @@
         </ul>
       </nav>
     </header>
+    <!-- Header ends here -->
+
+    <!-- Main starts here with a form to enter zipcode for weather and news -->
     <main>
       <h1 class="h1">News & Weather!</h1>
+
+      <!-- Splash images start here -->
       <div id="splashImg">
         <div>
           <img
@@ -65,36 +71,36 @@
           />
         </div>
       </div>
-      <div >
-
-        <form id="zipcode" class="button">
-          <label >
+      <!-- Splash images end here -->
+      <!-- Input for Zip Code to get weather and news -->
+      <div>
+        <form id="zipcode" class="button" aria-label="Weather Search Form">
+          <label>
             <input
-            type="text"
-            id="zip"
-            name="zip"
-            placeholder=" Enter Zipcode to get Your:"
-            required
+              type="text"
+              id="zip"
+              name="zip"
+              placeholder=" Enter Zipcode to get Your:"
+              required
             />
-            <button type="submit" class="button">
+            <button type="submit" class="button">News & Weather</button>
           </label>
-            <!-- <iconify-icon icon="noto:sun" width="15" height="10"></iconify-icon> -->
-            News & Weather
-          </button>
         </form>
       </div>
-        <div class="cardWeather hide" id="dailyWeather">
-          <!-- <header class="cardWeather__header">
-            Your Personalized News & Weather
-          </header> -->
-        </div>
-        <div class= "hide" id="newsContainer"></div>
-      </main>
-      <footer class="footer-dash">
-        <div>© 2024 News & Weather</div>
+      <div
+        class="cardWeather hide"
+        id="dailyWeather"
+        aria-label="Daily Weather Forecast"
+      ></div>
+      <div class="hide" id="newsContainer" aria-label="News Container"></div>
+    </main>
+    <!-- Main ends here -->
+    <!-- Footer starts here -->
+    <footer class="footer-dash">
+      <div>© 2024 News & Weather</div>
     </footer>
+    <!-- Footer ends here -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-
     <script src="dashboard.js"></script>
   </body>
 </html>
