@@ -61,8 +61,8 @@ about.js
 
 README.md
 
-### Development Log
-Day 1: Project Initialization and API Selection
+## Development Log
+### Day 1: Project Initialization and API Selection
 
 Created the project repository and initialized with base files.
 
