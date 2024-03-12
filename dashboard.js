@@ -133,3 +133,8 @@ form.addEventListener("submit", async (e) => {
   const newsArticles = await fetchLocalNews(city); // Fetch local news articles based on the city name
   displayNewsToDOM(newsArticles); // Display news articles on the DOM
 });
+
+
+// Credits: After writing and checking the code for its desired functionality,
+//          as a last step, final integration and tweaking was done/checked with AI's 
+//          help to keep the code DRY and error-free.
